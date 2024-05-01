@@ -1,0 +1,13 @@
+streamlit
+streamlit_extras
+pdfplumber
+PyPDF2
+openai
+tenacity
+ipython
+tensorflow
+keras
+yfinance
+numpy
+pandas
+scikit-learn
