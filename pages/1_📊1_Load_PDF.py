@@ -1,9 +1,12 @@
 import streamlit as st
 from utils import st_def
-import openai, PyPDF2, os, time, pandas as pd
 
-st_def.st_logo(title='Welcome 👋 to Book Summarizer!', page_title="PDF Summarizer",)
-st_def.st_load_book()
+st.set_page_config(page_title='👋 AI',  page_icon="🚀",)
+st.title('🔍 AI')
+st_def.st_logo()
+
+st.markdown("🚀) 🍨📄Rule Extraction📚: Python Libraries  Approaches📰🍨 ")
+st.image("./images/zhang.gif")
 
 pdf1 = st.file_uploader('Upload your PDF Document', type='pdf')
 #-----------------------------------------------
